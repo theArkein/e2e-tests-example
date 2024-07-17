@@ -33,7 +33,7 @@ jobs:
       uses: actions/upload-pages-artifact@v2
       with:
         path: playwright-report/
-  # Deploy the Pages site
+  # Deploy the Pages sites
   deploy:
     needs: test
     environment:
